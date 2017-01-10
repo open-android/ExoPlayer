@@ -13,6 +13,9 @@
 // limitations under the License.
 apply plugin: 'com.android.library'
 
+apply plugin: 'com.github.dcendents.android-maven'//固定不变  
+group='com.github.itcastsh'//itcastsh：github账号
+
 
 android {
     compileSdkVersion 23
